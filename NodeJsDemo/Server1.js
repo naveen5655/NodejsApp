@@ -1,0 +1,15 @@
+var http = require('http')
+
+http.createServer(function(req,res)
+{
+    res.write("<html>")
+    res.write("<head")
+    res.write("</head>")
+    res.write("<body")
+    res.write("<b>Hello MSWD S6, Welcome to Node Js concepts<b></br>")
+    res.write("<font color='red'> Hello MSWD S6</font></br>")
+    res.write("<mark>MEAN STACK WEB DEVELOPMENT</mark>")
+    res.write("</body>")
+    res.write("</html>")
+    res.end()
+}).listen(2021)
